@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="lab03.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/lab03_main_jar</output-path>
+    <root id="root">
+      <element id="archive" name="lab03.main.jar">
+        <element id="module-output" name="lab03.main" />
+      </element>
+      <element id="library" level="project" name="Gradle: org.apache.commons:commons-csv:1.8" />
+    </root>
+  </artifact>
+</component>
