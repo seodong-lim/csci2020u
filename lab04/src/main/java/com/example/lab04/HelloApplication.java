@@ -88,6 +88,18 @@ public class HelloApplication extends Application {
         });
         gridPane.add(label,2,1);
 
+        button.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                usernameLabel.setText(usernameLabel.getText());
+                String eWord = emailLabel.getText();
+                String dWord = dobLabel.getText();
+                String nWord = nameLabel.getText();
+                String phWord = phoneLabel.getText();
+
+
+            }
+        });
 
 
         // setting scene
